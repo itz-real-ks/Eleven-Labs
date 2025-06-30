@@ -18,7 +18,7 @@ html = f"""
   <style>
     body {{
       margin: 0;
-      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-family: 'Segoe UI', 'Arial', sans-serif;
       background: #fff;
       display: inline-block;
     }}
@@ -29,6 +29,7 @@ html = f"""
       border-radius: 20px;
       border: 1px solid #e0e0e0;
       background: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }}
 
     .header {{
@@ -107,7 +108,13 @@ html = f"""
 """
 
 # ==== GENERATE IMAGE ====
-imgkit.from_string(html, "thumbnail_output.png", options={
+output_path = "thumbnail_output.png"
+imgkit.from_string(html, output_path, options={
     'quiet': '',
     'encoding': 'UTF-8',
+    'width': '800',  # Set the width to match the card width
+    'height': '400',  # Set the height to match the card height
 })
+
+# Print the output path
+print(f"Image saved at: {Path(output_path).resolve()}")
