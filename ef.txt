@@ -1,0 +1,13 @@
+> yt-dlp -f 247 --download-sections "01:00-" "09:00"  https://youtu.be/zZ7AimPACzc?si=gTsxreQboTppbxv5 -o input_file.webm
+ERROR: Fixed output name but more than one file to download: input_file.webm
+PS C:\Users\123\yt-automation\Pyt-autmates> yt-dlp -f 247 --download-sections "01:00-" "09:00"  https://youtu.be/zZ7AimPACzc?si=gTsxreQboTppbxv5                   
+[generic] Extracting URL: 09:00 
+ERROR: [generic] '09:00' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:09:00" ) to search YouTube
+[youtube] Extracting URL: https://youtu.be/zZ7AimPACzc?si=gTsxreQboTppbxv5
+[youtube] zZ7AimPACzc: Downloading webpage
+[youtube] zZ7AimPACzc: Downloading tv client config 
+[youtube] zZ7AimPACzc: Downloading tv player API JSON 
+[youtube] zZ7AimPACzc: Downloading ios player API JSON 
+[youtube] zZ7AimPACzc: Downloading m3u8 information 
+[info] zZ7AimPACzc: Cannot match chapters since chapter information is unavailable 
+PS C:\Users\123\yt-automation\Pyt-autmates> 
