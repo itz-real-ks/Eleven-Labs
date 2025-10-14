@@ -1,6 +1,12 @@
-<h1>Eleven Labs API Exploit 🔥</h1>
+<h1>Eleven Labs API Free 🔥</h1>
 <p>Python scripts to use manifest from diff models from <a href="https://elevenlabs.io">elevenlabs.io</a> landing page free model --> Unauthorized = 1 🤖</p>
 <p><strong>⚠️ Disclaimer:</strong> For educational purposes only. Ensure compliance with laws and terms of service when testing APIs 📝</p>
+
+<h2>This is to inform this hab been test on windows11 22h2 builds only! For any PR or Suggestions feel free to get to post in Issues</h2>
+<pre>
+  # This is for Linux 6.12.38+kali-amd64
+  <a href="https://github.com/itz-real-ks/Eleven-Labs/blob/main/Linux_Help.md">Click Here for linux helps</a>
+</pre>
 
 <h2>Features 🚀</h2>
 <ul>
