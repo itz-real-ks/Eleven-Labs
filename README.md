@@ -1,4 +1,8 @@
-<h1>Eleven Labs API Free 🔥</h1>
+# ~~Eleven Labs API Free 🔥~~
+<h2>⛔ Depricated! ⛔</h2>
+"As the site <a href="https://elevenlabs.io">Elevenlabs.io</a> has switched to JWT tokens as of this README.md commit date and trying the possible combinations of reversing the process its really hard to undo the formats and let this go for futher developments. 
+Its advised to use their offical apis and if you can upgrade this project feel free to send me PR or issues."
+<hr>
 <p>Python scripts to use manifest from diff models from <a href="https://elevenlabs.io">elevenlabs.io</a> landing page free model --> Unauthorized = 1 🤖</p>
 <p><strong>⚠️ Disclaimer:</strong> For educational purposes only. Ensure compliance with laws and terms of service when testing APIs 📝</p>
 
